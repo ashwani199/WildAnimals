@@ -1,0 +1,31 @@
+body{
+    margin:0;
+    background:rgb(91, 24, 168);
+}
+h1{
+    font-family:fantasy;
+    font-size:3em;
+    border-bottom:2px solid pink;
+    border-right: 2px solid pink;
+    width:350px;
+    text-align: center;
+    -moz-box-shadow:4px 4px 5px #888888;
+    box-shadow: 4px 4px 5px #888888;
+    margin-top:10px;
+}
+.container {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+img{
+    width:600px;
+    height:400px;
+    margin: 10px;
+    transition:all 0.4s;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
